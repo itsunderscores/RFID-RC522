@@ -28,8 +28,11 @@ sudo raspi-config
 reboot
 ```
 
-3. Open config file: sudo nano /boot/config.txt
-   ```dtparam=spi=on```
+3. Modifying config boot file
+   ```
+   sudo nano /boot/config.txt
+   dtparam=spi=on
+   ```
    
 4. Install packages
   ```sudo apt-get update
