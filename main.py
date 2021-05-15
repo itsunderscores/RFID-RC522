@@ -69,7 +69,7 @@ def menu():
 
 	print(WHITE+"-------------------------------------------------------")
 	print(WHITE+"[+]"+CGREEN+" What would you like to do?")
-	print(WHITE+"[-]"+CGREEN+" 1 = Start Service")
+	print(WHITE+"[-]"+CGREEN+" 1 = Start Sniffer")
 	print(WHITE+"[-]"+CGREEN+" 2 = Write New Card")
 	print(WHITE+"[-]"+CGREEN+" 3 = Read Card")
 	print(WHITE+"[-]"+CGREEN+" 4 = Add New User")
