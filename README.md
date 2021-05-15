@@ -5,8 +5,6 @@
   </a>
 
   <h3 align="center">RFID RC522 Tool by Underscores</h3>
-  </br>
-  <img src="https://i.imgur.com/7s6WmFz.png" />
 </p>
 
 # RFID-RC522
@@ -48,3 +46,4 @@ reboot
 ```
 python3 main.py
 ```
+<img src="https://i.imgur.com/7s6WmFz.png" />
