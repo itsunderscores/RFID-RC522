@@ -7,16 +7,14 @@ import random
 import RPi.GPIO as GPIO
 from mfrc522 import SimpleMFRC522
 
-os.system("clear") #clear panel
-GPIO.setwarnings(False)
+os.system("clear") #Clean screen
+GPIO.setwarnings(False) #Ignore GPIO errors
 reader = SimpleMFRC522()
 
 CRED = '\033[91m'
 CGREEN = '\33[92m'
 CYAN    = '\033[36m'
 WHITE   = '\033[37m'
-RESET   = '\033[39m'
-YELLOW  = '\033[33m'
 MAGENTA = '\u001b[35;1m'
 
 def read():
