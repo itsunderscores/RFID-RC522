@@ -3,6 +3,16 @@
   <a href="https://github.com/itsunderscores">
     <img src="https://avatars.githubusercontent.com/u/84211119?s=400&u=acc77c1d7fe1d778bdcba08993ba0ca0249fa89f&v=4" alt="Logo" width="80" height="80">
   </a>
+  
+```
+ _____  ______ _____ _____  _              _
+|  __ \|  ____|_   _|  __ \| |            | |
+| |__) | |__    | | | |  | | |_ ___   ___ | |
+|  _  /|  __|   | | | |  | | __/ _ \ / _ \| |
+| | \ \| |     _| |_| |__| | || (_) | (_) | |
+|_|  \_\_|    |_____|_____/ \__\___/ \___/|_|
+
+```
 
   <h3 align="center">RFID RC522 Tool by Underscores</h3>
 </p>
