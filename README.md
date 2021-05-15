@@ -11,6 +11,8 @@
 Python3 RFID RC522 Tool that allows you to read and write with ease
 I used this software with my Raspberry Pi 4 Model B
 
+<img src="https://i.imgur.com/7s6WmFz.png" width="30%" />
+
 
 ### Installation
 1. Enable SPI
@@ -46,4 +48,3 @@ reboot
 ```
 python3 main.py
 ```
-<img src="https://i.imgur.com/7s6WmFz.png" />
