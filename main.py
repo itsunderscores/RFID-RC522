@@ -65,6 +65,7 @@ def menu():
 	print(WHITE+"-------------------------------------------------------")
 	print(WHITE+"[+]"+CGREEN+" rFID Lookup (RFID-RC522 via Pi4)")
 	print(WHITE+"[-]"+CGREEN+" Written by " + CRED + "Underscores" + CGREEN + " 5/14/2021")
+	print(WHITE+"[-]"+CGREEN+" https://github.com/itsunderscores/RFID-RC522")
 	print(WHITE+"-------------------------------------------------------")
 	print(WHITE+"[+]"+CGREEN+" What would you like to do?")
 	print(WHITE+"[-]"+CGREEN+" 1 = Startup 24/7 Reading")
