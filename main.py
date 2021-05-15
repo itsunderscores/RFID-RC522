@@ -7,14 +7,16 @@ import random
 import RPi.GPIO as GPIO
 from mfrc522 import SimpleMFRC522
 
-os.system("clear") #Clean screen
-GPIO.setwarnings(False) #Ignore GPIO errors
+os.system("clear") #clear panel
+GPIO.setwarnings(False)
 reader = SimpleMFRC522()
 
 CRED = '\033[91m'
 CGREEN = '\33[92m'
 CYAN    = '\033[36m'
 WHITE   = '\033[37m'
+RESET   = '\033[39m'
+YELLOW  = '\033[33m'
 MAGENTA = '\u001b[35;1m'
 
 def read():
@@ -64,9 +66,10 @@ def menu():
 	print(WHITE+"[+]"+CGREEN+" rFID Lookup (RFID-RC522 via Pi4)")
 	print(WHITE+"[-]"+CGREEN+" Written by " + CRED + "Underscores" + CGREEN + " 5/14/2021")
 	print(WHITE+"[-]"+CGREEN+" https://github.com/itsunderscores/RFID-RC522")
+
 	print(WHITE+"-------------------------------------------------------")
 	print(WHITE+"[+]"+CGREEN+" What would you like to do?")
-	print(WHITE+"[-]"+CGREEN+" 1 = Startup 24/7 Reading")
+	print(WHITE+"[-]"+CGREEN+" 1 = Start Service")
 	print(WHITE+"[-]"+CGREEN+" 2 = Write New Card")
 	print(WHITE+"[-]"+CGREEN+" 3 = Read Card")
 	print(WHITE+"[-]"+CGREEN+" 4 = Add New User")
@@ -89,6 +92,7 @@ def menu():
 		if input1 == "2":
 			print(WHITE+"-------------------------------------------------------")
 			input2 = input(WHITE+"[+]" + CGREEN + " Data you want to write to card: " + WHITE)
+			print(WHITE+"[-]" + CGREEN + " Place RFID tag on module, waiting to write")
 			reader.write(input2)
 			print(WHITE+"[-]" + CGREEN + " Your card has been successfully written with data: " + WHITE +  input2)
 			wait = input(WHITE+"[-]"+CGREEN+ " Press ENTER to return to menu")
