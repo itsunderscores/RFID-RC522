@@ -23,11 +23,15 @@ sudo raspi-config
 * Once the SPI interface has been successfully enabled by the raspi-config tool you should see the following text appear on the screen, “The SPI interface is enabled“.
 * Before the SPI Interface is fully enabled we will first have to restart the Raspberry Pi. To do this first get back to the terminal by pressing Enter and then ESC.
 
-```reboot```
-2. Open config file: sudo nano /boot/config.txt
+2. Reboot
+```
+reboot
+```
+
+3. Open config file: sudo nano /boot/config.txt
    ```dtparam=spi=on```
    
-3. Install packages
+4. Install packages
   ```sudo apt-get update
   sudo apt-get upgrade
   sudo apt-get install python3-dev python3-pip
