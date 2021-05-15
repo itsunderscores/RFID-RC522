@@ -4,7 +4,7 @@
     <img src="https://avatars.githubusercontent.com/u/84211119?s=400&u=acc77c1d7fe1d778bdcba08993ba0ca0249fa89f&v=4" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">RFID RC522</h3>
+  <h3 align="center">RFID RC522 Tool by Underscores</h3>
 </p>
 
 # RFID-RC522
